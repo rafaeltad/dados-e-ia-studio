@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>*{box-sizing:border-box}body{margin:0}</style>
+<title>Dados e IA Studio Terms</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Manrope:wght@400;500;700&display=swap">
+<style>
+/* layout: single reading column, small brand mark, numbered clauses because legal clauses are a real sequence */
+:root {
+  --bg: #F7F7FB; --fg: #151A2B; --muted: #5B6178; --line: #DCDDEA; --accent: #5B3FE0; --accent2: #0E9FB8;
+  --display: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --body: "Manrope", "Segoe UI", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0A0E1A; --fg: #EEF0F8; --muted: #9AA1BC; --line: #262C42; --accent: #A08CFF; --accent2: #45DDF3; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #0A0E1A; --fg: #EEF0F8; --muted: #9AA1BC; --line: #262C42; --accent: #A08CFF; --accent2: #45DDF3; color-scheme: dark }
+body { background: var(--bg); color: var(--fg); font: 400 1rem/1.65 var(--body); padding-inline: 20px; padding-block: 48px 72px; }
+main { max-width: 42rem; margin: 0 auto; display: grid; gap: 28px; }
+.mark { display: flex; align-items: center; gap: 12px; font: 800 1.05rem var(--display); }
+.mark i { width: 34px; height: 34px; border-radius: 10px; background: linear-gradient(135deg, var(--accent), var(--accent2)); }
+h1 { font: 800 clamp(2rem, 6vw, 2.8rem)/1.05 var(--display); letter-spacing: -0.02em; margin: 0; text-wrap: balance; }
+.meta { color: var(--muted); font-size: .92rem; margin-top: 8px; }
+ol { margin: 0; padding: 0; list-style: none; counter-reset: c; display: grid; gap: 22px; }
+ol > li { counter-increment: c; border-top: 1px solid var(--line); padding-top: 18px; display: grid; gap: 6px; }
+ol > li h2 { font: 600 1.15rem var(--display); margin: 0; }
+ol > li h2::before { content: counter(c) ". "; color: var(--accent); }
+p, ul { margin: 0; }
+ul { padding-left: 1.2rem; display: grid; gap: 4px; }
+a { color: var(--accent); }
+.pt { background: color-mix(in srgb, var(--accent) 8%, transparent); border-radius: 12px; padding: 14px 16px; font-size: .95rem; }
+</style>
+</head>
+<body>
+<main>
+  <div class="mark"><i aria-hidden="true"></i>Dados e IA Studio</div>
+  <header>
+    <h1>Terms of Service</h1>
+    <p class="meta">Effective October 7, 2026. Operated by Rafael Tadeu, an individual creator in Brazil.</p>
+  </header>
+  <p class="pt">Resumo em português: o Dados e IA Studio é uma ferramenta pessoal que envia vídeos educativos sobre dados e IA, produzidos no computador do criador, para a conta do TikTok do próprio criador. Não é um serviço aberto ao público.</p>
+  <ol>
+    <li><h2>What the app is</h2>
+      <p>Dados e IA Studio is a personal publishing tool. It runs on the operator's own computer, produces short educational videos about data and artificial intelligence, and uploads them to the operator's own TikTok account through TikTok's official Content Posting API.</p></li>
+    <li><h2>Who may use it</h2>
+      <p>The app is used only by its operator to manage the operator's own TikTok account. It is not offered to the public, and no other person can sign up or connect an account.</p></li>
+    <li><h2>Connecting TikTok</h2>
+      <p>Connecting a TikTok account requires the account owner to sign in with TikTok and approve the requested permissions. Access can be revoked at any time in the TikTok app under Settings and privacy, Security, Apps and services permissions.</p></li>
+    <li><h2>Content</h2>
+      <ul>
+        <li>The operator is responsible for every video and caption published with the app.</li>
+        <li>Videos are original motion graphics with synthetic narration and are labeled as AI-generated content on TikTok.</li>
+        <li>Content must follow the TikTok Terms of Service and Community Guidelines.</li>
+      </ul></li>
+    <li><h2>TikTok platform</h2>
+      <p>The app uses TikTok's APIs under the TikTok Developer Terms of Service. TikTok is not responsible for this app, and these terms do not change your agreement with TikTok.</p></li>
+    <li><h2>No warranty</h2>
+      <p>The app is provided as is, without warranties of any kind. To the extent permitted by law, the operator is not liable for indirect or consequential damages arising from its use.</p></li>
+    <li><h2>Changes and law</h2>
+      <p>These terms may be updated on this page, with a new effective date. They are governed by the laws of Brazil.</p></li>
+    <li><h2>Contact</h2>
+      <p>Questions about these terms can be sent to the operator through the TikTok account connected to this app.</p></li>
+  </ol>
+</main>
+</body>
+</html>
